@@ -1,0 +1,262 @@
+body {
+    font-family:  "Raleway", sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    
+}
+
+/* 
+    Start header
+*/
+
+header {
+    background: url(https://www.w3schools.com/w3images/wedding_couple.jpg);
+    position: relative;
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    display: block;
+    filter: grayscale(50%);
+}
+
+header > .wrapper > .item-middle {    
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    letter-spacing: 4px;
+}
+
+header .wrapper .item-middle .names {
+    font-size: 64px;
+    margin: 10px 0;
+    font-weight: 400;
+}
+
+header .wrapper .item-middle p {
+    font-size: 30px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+/*End header*/
+/*Start First-section*/
+
+#about {
+    background-color: #ffdddd;
+    color: #000;
+    padding: 64px 16px;
+    filter: grayscale(50%);
+    text-align: center;
+}
+
+#about .flex-container{
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#about .flex-container .item-cart .cart-title {
+    color: #757575;
+    text-align: center;
+    font-size: 36px;
+}
+
+#about .flex-container .item-cart .cart-img img {
+    width: 100%;
+    border-radius: 4px;
+    margin: 32px 0;
+}
+
+#about .flex-container .item-cart .cart-desc {
+    margin: 15px 0;
+    line-height: 2;
+}
+
+#about .flex-container .item-cart .cart-desc p {
+    text-align: left;
+}
+
+#about .flex-container .item-cart .button {
+    margin: 15px 0;
+    line-height: 2;
+    
+    
+}
+
+#about .flex-container .item-cart .button .black {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 12px 24px;
+    font-size: 18px;
+    border-radius: 4px;
+    border: none;
+    display: inline-block;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+/*End First-section*/
+/*Start Second-section*/
+
+#second {
+    background: url(https://www.w3schools.com/w3images/flowers.jpg);
+    position: relative;
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    display: block;
+}
+
+#second > .wrapper > .item-middle {
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    letter-spacing: 4px;
+}
+
+#second .wrapper .item-middle .invetition {
+    font-size: 64px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+#second .wrapper .item-middle p {
+    font-size: 30px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+ /*End Second-section*/
+
+/*Start Third-section*/
+
+#third {
+    background-color: #ffdddd;
+    color: #000;
+    padding: 64px 16px;
+    text-align: center;
+    filter: grayscale(70%);
+
+}
+
+#third .flex-container {
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#third .flex-container .item-cart .title-cart {
+    color: #757575;
+    text-align: center;
+    font-size: 36px;
+    margin: 10px 0;
+}
+
+#third .flex-container .item-cart .cart-img img{
+    width: 100%;
+    margin: 64px 0;
+    border-radius: 4px;
+}
+
+#third .flex-container .item-cart .WhenWhere {
+    display: flex;
+    margin: 0 auto;
+}
+
+#third .flex-container .item-cart .WhenWhere p {
+    margin: 15px 0;
+    line-height: 2; 
+    font-size: 15px;
+}
+
+#third .flex-container .item-cart .WhenWhere .cart-desc1 {
+    flex: 1;
+}
+
+#third .flex-container .item-cart .WhenWhere .cart-desc2 {
+    flex: 1;
+}
+
+#third .flex-container .item-cart .WhenWhere .cart-desc1 .when {
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 30px;
+}
+
+#third .flex-container .item-cart .WhenWhere .cart-desc2 .where {
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 30px;
+}
+
+/*End third-section*/
+/*Start fourth-section*/
+
+#fourth {
+    background-color: #ffdddd;
+    color: #333;
+    padding: 64px 16px;
+    text-align: center;
+    letter-spacing: 4px;
+    
+}
+
+#fourth .wrapper .cart-desc .title {
+    font-weight: 400;
+    font-size: 36px;
+    margin: 10px 0;
+}
+
+#fourth .wrapper .cart-desc p {
+    font-size: 18px;
+    margin: 18px 0;
+}
+
+#fourth .wrapper .cart-desc .button {
+    margin: 24px 0;
+    font-size: 24px;
+
+}
+
+#fourth .wrapper .cart-desc button {
+    background-color: #f44336;
+    padding: 8px 60px;
+    font: inherit;
+    margin: 0;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0.60;
+} 
+
+/*End fourth-section*/
+/*Start fith-section*/
+
+#footer {
+    padding: 0 16px;
+    background-color: #000;
+    color: #fff;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    text-align: center;
+    display: block;
+}
+
+#footer p {
+    margin: 15px 0;
+}
+
+#footer p a{
+    color: inherit;
+    text-decoration: underline;
+    background-color: #a5424217;
+}
+/*End fifth-section*/
